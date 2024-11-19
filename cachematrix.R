@@ -18,7 +18,7 @@ i <- NULL
 }
 
 
-## Write a short comment describing this function
+## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 
 cacheSolve <- function(x, ...) {
        i <- x$getinv()
